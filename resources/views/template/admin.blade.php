@@ -295,7 +295,7 @@
             <div class="collapse" id="neracaEnergi">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/neracaenergi">View data</a>
                 </li>
               </ul>
             </div>
@@ -309,7 +309,7 @@
             <div class="collapse" id="jardisGardis">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/jardisdangardis">View data</a>
                 </li>
               </ul>
             </div>

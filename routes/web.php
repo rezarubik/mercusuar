@@ -13,3 +13,6 @@
 
 Route::get('/', 'AdminController@index');
 Route::get('/pembangkit', 'AdminController@pembangkit');
+
+Route::get('/neracaenergi', 'NeracaEnergiController@index');
+Route::get('/jardisdangardis', 'JardisGardisController@index');
