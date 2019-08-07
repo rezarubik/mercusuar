@@ -1,10 +1,10 @@
 @extends('template.admin')
-@section('title', 'Input Gardu Induk')
+@section('title', 'Edit Gardu Induk')
 @section('content')
 <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Input Gardu Induk</h4>
+                  <h4 class="card-title">Edit Gardu Induk</h4>
                   <form class="forms-sample">
                   <div class="card-body">
                   <div class="form-group">
@@ -89,8 +89,10 @@
                       <label for="FormLongitude">Longitude*</label>
                       <input type="text" class="form-control Longitude" id="FormLongitude" placeholder="Masukan Longitude">
                     </div>
+                    <div class="text-center">
                     <a href="/gardu_induk" class="btn btn-warning mr-2">Kembali</a>
                     <a href="/gardu_induk" class="btn btn-primary">Simpan</a>
+                </div>
                   </form>
                 </div>
               </div>

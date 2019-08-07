@@ -20,9 +20,17 @@ Route::get('/detail', 'KonsumsiPerkapitaController@detail');
 // Pembangkit
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
-Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
 Route::get('/gardu_induk/add', 'GarduIndukController@create');
+Route::get('/gardu_induk/detail', 'GarduIndukController@show');
+Route::get('/gardu_induk/edit', 'GarduIndukController@edit');
+Route::get('/gardu_induk/approval', 'GarduIndukController@approval');
+Route::get('/gardu_induk/delete', 'GarduIndukController@delete');
+Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
 Route::get('/jaringan_transmisi/add', 'JaringanTransmisiController@create');
+Route::get('/jaringan_transmisi/detail', 'JaringanTransmisiController@show');
+Route::get('/jaringan_transmisi/edit', 'JaringanTransmisiController@edit');
+Route::get('/jaringan_transmisi/approval', 'JaringanTransmisiController@approval');
+Route::get('/jaringan_transmisi/delete', 'JaringanTransmisiController@delete');
 
 // Neraca Energi
 Route::get('/neracaenergi', 'NeracaEnergiController@index');

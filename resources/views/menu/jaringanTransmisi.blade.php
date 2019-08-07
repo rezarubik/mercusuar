@@ -7,7 +7,7 @@
               <div class="card">
                 <div class="card-body">
                 <h4 class="card-title">Jaringan Transmisi</h4>
-                  <a href="/jaringan_transmisi/add" class="btn btn-primary">+Tambah</a>
+                <a href="/jaringan_transmisi/add" class="btn btn-primary float-right">+ Tambah Data</a>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -94,10 +94,10 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Refresh</a>
-                            <a href="#" class="badge badge-danger">Delete</a>
+                            <a href="/jaringan_transmisi/detail" class="badge badge-info">Detail</a>
+                            <a href="/jaringan_transmisi/edit" class="badge badge-warning">Edit</a>
+                            <a href="/jaringan_transmisi/approval" class="badge badge-primary">Approval</a>
+                            <a href="/jaringan_transmisi" class="badge badge-danger">Delete</a>
                           </td>
                           </tr>
                           <tr>
@@ -140,7 +140,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
+                            <a href="/jaringan_transmisi/detail" class="badge badge-info">Detail</a>
                           </td>
                           </tr>
                           <tr>
@@ -183,7 +183,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
+                            <a href="/jaringan_transmisi/detail" class="badge badge-info">Detail</a>
                           </td>
                           </tr>
                           <tr>
@@ -226,10 +226,10 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Refresh</a>
-                            <a href="#" class="badge badge-danger">Delete</a>
+                            <a href="/jaringan_transmisi/detail" class="badge badge-info">Detail</a>
+                            <a href="/jaringan_transmisi/edit" class="badge badge-warning">Edit</a>
+                            <a href="/jaringan_transmisi/approval" class="badge badge-primary">Approval</a>
+                            <a href="/jaringan_transmisi" class="badge badge-danger">Delete</a>
                           </td>
                           </tr>
                           <tr>
@@ -272,7 +272,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
+                            <a href="/jaringan_transmisi/detail" class="badge badge-info">Detail</a>
                           </td>
                           </tr>
                       </tbody>
