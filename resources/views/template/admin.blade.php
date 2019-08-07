@@ -267,7 +267,7 @@
             <div class="collapse" id="jaringanTransmisi">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/jaringan_transmisi">View data</a>
                 </li>
               </ul>
             </div>
@@ -281,7 +281,7 @@
             <div class="collapse" id="garduInduk">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/gardu_induk">View data</a>
                 </li>
               </ul>
             </div>

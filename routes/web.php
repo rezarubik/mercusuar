@@ -13,3 +13,5 @@
 
 Route::get('/', 'AdminController@index');
 Route::get('/pembangkit', 'AdminController@pembangkit');
+Route::get('/gardu_induk', 'GarduIndukController@index');
+Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
