@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
   <!-- endinject -->
-  <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}"/>
+  <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" />
 </head>
 
 <body>
@@ -203,7 +203,7 @@
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item nav-profile">
-            <div class="nav-link"> 
+            <div class="nav-link">
               <div class="user-wrapper">
                 <div class="profile-image">
                   <img src="{{asset('assets/images/faces/face1.jpg')}}" alt="profile image">
@@ -323,7 +323,7 @@
             <div class="collapse" id="pelangganPenjualan">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/pelangganPenjualan">View data</a>
                 </li>
               </ul>
             </div>
@@ -365,7 +365,7 @@
             <div class="collapse" id="roadmapLisdes">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/roadMapLisdes">View data</a>
                 </li>
               </ul>
             </div>
@@ -403,7 +403,7 @@
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-            @yield('content')
+          @yield('content')
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
