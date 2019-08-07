@@ -12,10 +12,12 @@
 */
 
 Route::get('/', 'AdminController@index');
-// Pembangkit
+// Pembangkit Gardu Induk Jaringan Transmisi
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
 Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
+Route::get('/gardu_induk/add', 'GarduIndukController@create');
+Route::get('/jaringan_transmisi/add', 'JaringanTransmisiController@create');
 
 // Neraca Energi
 Route::get('/neracaenergi', 'NeracaEnergiController@index');

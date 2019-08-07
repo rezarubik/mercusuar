@@ -13,7 +13,7 @@ class JaringanTransmisiController extends Controller
      */
     public function index()
     {
-        return view('menu/jaringan_transmisi');
+        return view('menu/jaringanTransmisi');
     }
 
     /**
@@ -23,7 +23,7 @@ class JaringanTransmisiController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/InputJaringanTransmisi');
     }
 
     /**

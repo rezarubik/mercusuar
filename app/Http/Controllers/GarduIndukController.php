@@ -13,7 +13,8 @@ class GarduIndukController extends Controller
      */
     public function index()
     {
-       return view('menu/gardu_induk');        
+    //    return view('menu/gardu_induk');
+        return view('menu/garduInduk');        
     }
 
     /**
@@ -23,7 +24,7 @@ class GarduIndukController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/InputGarduInduk');
     }
 
     /**

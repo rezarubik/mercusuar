@@ -1,13 +1,13 @@
 @extends('template.admin')
 
-@section('title', 'jaringan Transmisi')
+@section('title', 'Gardu Induk')
 
 @section('content')
 <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                <h4 class="card-title">Jaringan Transmisi</h4>
-                  <a href="#" class="btn btn-primary">+Tambah</a>
+                  <h4 class="card-title">Gardu Induk</h4>
+                  <a href="/gardu_induk/add" class="btn btn-primary">+Tambah Data</a>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -16,34 +16,31 @@
                             No
                           </th>
                           <th>
+                            Gardu Induk
+                          </th>
+                          <th>
                             Provinsi
                           </th>
                           <th>
-                            Kab/Kota
+                            Kapasitas (KVA)
                           </th>
                           <th>
-                            Kecamatan
+                            Tegangan (KV)
                           </th>
                           <th>
-                            Desa
+                            Tipe
                           </th>
                           <th>
-                            Tahun
+                            Jenis
                           </th>
                           <th>
-                            Bulan
+                            Status Kepemilikan
                           </th>
                           <th>
-                            Golongan Tarif
+                            Status Operasi
                           </th>
                           <th>
-                            Jumlah Pelanggan
-                          </th>
-                          <th>
-                            Total Penjualan (KWH)
-                          </th>
-                          <th>
-                            Total Penjualan (PLT)
+                            Tahun Mulai Operasi
                           </th>
                           <th>
                             Status
@@ -55,38 +52,35 @@
                       </thead>
                       <tbody>
                         <tr>
-                        <td class="py-1">
+                          <td class="py-1">
                             1.
                           </td>
                           <td>
+                            Gardu Induk A
+                          </td>
+                          <td>
                             Jawa Tengah
                           </td>
                           <td>
-                            Yogyakarta
+                            532
                           </td>
                           <td>
-                            Sumenep
+                            564
                           </td>
                           <td>
-                            Slipi
+                            Tipe A
+                          </td>
+                          <td>
+                            Jenis A
+                          </td>
+                          <td>
+                            Milik Sendiri
+                          </td>
+                          <td>
+                            Operasi
                           </td>
                           <td>
                             2019
-                          </td>
-                          <td>
-                            Januari
-                          </td>
-                          <td>
-                            A
-                          </td>
-                          <td>
-                            2290
-                          </td>
-                          <td>
-                            1500
-                          </td>
-                          <td>
-                            1700
                           </td>
                           <td><span class="text-success">Draft</span></td>
                           <td>
@@ -99,172 +93,37 @@
                             <a href="#" class="badge badge-primary">Refresh</a>
                             <a href="#" class="badge badge-danger">Delete</a>
                           </td>
-                          </tr>
-                          <tr>
-                        <td class="py-1">
+                        </tr>
+                        <tr>
+                          <td class="py-1">
                             2.
                           </td>
                           <td>
-                            Jawa Tengah
-                          </td>
-                          <td>
-                            Sleman
-                          </td>
-                          <td>
-                            Kudus
-                          </td>
-                          <td>
-                            Jambe
-                          </td>
-                          <td>
-                            2019
-                          </td>
-                          <td>
-                            Maret
-                          </td>
-                          <td>
-                            A
-                          </td>
-                          <td>
-                            2290
-                          </td>
-                          <td>
-                            1500
-                          </td>
-                          <td>
-                            1700
-                          </td>
-                          <td><span class="text-success">Approved</span></td>
-                          <td>
-                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
-                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
-                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
-                          </td>
-                          </tr>
-                          <tr>
-                        <td class="py-1">
-                            3.
+                            Gardu Induk B
                           </td>
                           <td>
                             Jawa Barat
                           </td>
                           <td>
-                            Bandung
+                            532
                           </td>
                           <td>
-                            Sarijadi
+                            564
                           </td>
                           <td>
-                            Ciwaruga
+                            Tipe A
                           </td>
                           <td>
-                            2019
+                            Jenis A
                           </td>
                           <td>
-                            April
+                            Milik Sendiri
                           </td>
                           <td>
-                            A
-                          </td>
-                          <td>
-                            2290
-                          </td>
-                          <td>
-                            1500
-                          </td>
-                          <td>
-                            1700
-                          </td>
-                          <td><span class="text-success">Approved</span></td>
-                          <td>
-                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
-                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
-                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
-                          </td>
-                          </tr>
-                          <tr>
-                        <td class="py-1">
-                            4.
-                          </td>
-                          <td>
-                            Jawa Barat
-                          </td>
-                          <td>
-                            Subang
-                          </td>
-                          <td>
-                            Lembang
-                          </td>
-                          <td>
-                            Jonggol
+                            Operasi
                           </td>
                           <td>
                             2019
-                          </td>
-                          <td>
-                            Mei
-                          </td>
-                          <td>
-                            A
-                          </td>
-                          <td>
-                            2290
-                          </td>
-                          <td>
-                            1500
-                          </td>
-                          <td>
-                            1700
-                          </td>
-                          <td><span class="text-success">Draft</span></td>
-                          <td>
-                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
-                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
-                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
-                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Refresh</a>
-                            <a href="#" class="badge badge-danger">Delete</a>
-                          </td>
-                          </tr>
-                          <tr>
-                        <td class="py-1">
-                            5.
-                          </td>
-                          <td>
-                            Jawa Barat
-                          </td>
-                          <td>
-                            Cirebon
-                          </td>
-                          <td>
-                            Arjawinangun
-                          </td>
-                          <td>
-                            Jungjang
-                          </td>
-                          <td>
-                            2019
-                          </td>
-                          <td>
-                            Juni
-                          </td>
-                          <td>
-                            A
-                          </td>
-                          <td>
-                            2290
-                          </td>
-                          <td>
-                            1500
-                          </td>
-                          <td>
-                            1700
                           </td>
                           <td><span class="text-success">Reject</span></td>
                           <td>
@@ -274,7 +133,130 @@
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
                             <a href="#" class="badge badge-info">Detail</a>
                           </td>
-                          </tr>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            3.
+                          </td>
+                          <td>
+                            Gardu Induk C
+                          </td>
+                          <td>
+                            Jawa Timur
+                          </td>
+                          <td>
+                            532
+                          </td>
+                          <td>
+                            564
+                          </td>
+                          <td>
+                            Tipe A
+                          </td>
+                          <td>
+                            Jenis A
+                          </td>
+                          <td>
+                            Milik Sendiri
+                          </td>
+                          <td>
+                            Operasi
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td><span class="text-success">Approved</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <a href="#" class="badge badge-info">Detail</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            4.
+                          </td>
+                          <td>
+                            Gardu Induk D
+                          </td>
+                          <td>
+                            Jawa Barat
+                          </td>
+                          <td>
+                            532
+                          </td>
+                          <td>
+                            564
+                          </td>
+                          <td>
+                            Tipe A
+                          </td>
+                          <td>
+                            Jenis A
+                          </td>
+                          <td>
+                            Milik Sendiri
+                          </td>
+                          <td>
+                            Operasi
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td><span class="text-success">Approved</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <a href="#" class="badge badge-info">Detail</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="py-1">
+                            5.
+                          </td>
+                          <td>
+                            Gardu Induk E
+                          </td>
+                          <td>
+                            Jawa Timur
+                          </td>
+                          <td>
+                            532
+                          </td>
+                          <td>
+                            564
+                          </td>
+                          <td>
+                            Tipe A
+                          </td>
+                          <td>
+                            Jenis A
+                          </td>
+                          <td>
+                            Milik Sendiri
+                          </td>
+                          <td>
+                            Operasi
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td><span class="text-success">Draft</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <a href="#" class="badge badge-info">Detail</a>
+                            <a href="#" class="badge badge-warning">Edit</a>
+                            <a href="#" class="badge badge-primary">Refresh</a>
+                            <a href="#" class="badge badge-danger">Delete</a>
+                          </td>
+                        </tr>
                       </tbody>
                     </table>
                   </div>
