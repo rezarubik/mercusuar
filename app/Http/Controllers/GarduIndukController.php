@@ -13,7 +13,8 @@ class GarduIndukController extends Controller
      */
     public function index()
     {
-       return view('menu/gardu_induk');        
+    //    return view('menu/gardu_induk');
+        return view('menu/garduInduk');        
     }
 
     /**
@@ -23,7 +24,7 @@ class GarduIndukController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/InputGarduInduk');
     }
 
     /**
@@ -43,9 +44,9 @@ class GarduIndukController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        return view('detail/detailGarduInduk');
     }
 
     /**
@@ -54,9 +55,9 @@ class GarduIndukController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit()
     {
-        //
+        return view('form/EditGarduInduk');
     }
 
     /**
@@ -80,5 +81,9 @@ class GarduIndukController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function approval()
+    {
+        return view('detail/ApprovalGarduInduk');
     }
 }

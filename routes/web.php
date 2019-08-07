@@ -12,14 +12,23 @@
 */
 
 Route::get('/', 'AdminController@index');
+// Pembangkit Gardu Induk Jaringan Transmisi
 Route::get('/pembangkit', 'AdminController@pembangkit');
 
-Route::get('/perkapita', 'KonsumsiPerkapitaController@index');
-Route::get('/detail', 'KonsumsiPerkapitaController@detail');
 // Pembangkit
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
+Route::get('/gardu_induk/add', 'GarduIndukController@create');
+Route::get('/gardu_induk/detail', 'GarduIndukController@show');
+Route::get('/gardu_induk/edit', 'GarduIndukController@edit');
+Route::get('/gardu_induk/approval', 'GarduIndukController@approval');
+Route::get('/gardu_induk/delete', 'GarduIndukController@delete');
 Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
+Route::get('/jaringan_transmisi/add', 'JaringanTransmisiController@create');
+Route::get('/jaringan_transmisi/detail', 'JaringanTransmisiController@show');
+Route::get('/jaringan_transmisi/edit', 'JaringanTransmisiController@edit');
+Route::get('/jaringan_transmisi/approval', 'JaringanTransmisiController@approval');
+Route::get('/jaringan_transmisi/delete', 'JaringanTransmisiController@delete');
 
 // Neraca Energi
 Route::get('/neracaenergi', 'NeracaEnergiController@index');
@@ -30,6 +39,14 @@ Route::get('/jardisdangardis', 'JardisGardisController@index');
 // Pelanggan Penjualan & Road Mao Lisdes
 Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
 Route::get('/pelangganPenjualan/add', 'PelangganPenjualanController@create');
+
+// Perkapita
+Route::get('/perKapita', 'KonsumsiPerkapitaController@index');
+Route::get('/detail', 'KonsumsiPerkapitaController@show');
+Route::get('/editKapita', 'KonsumsiPerkapitaController@edit');
+Route::get('/approvalKapita', 'KonsumsiPerkapitaController@approval');
+
+
 Route::get('/pelangganPenjualan/detail', 'PelangganPenjualanController@show');
 Route::get('/pelangganPenjualan/edit', 'PelangganPenjualanController@edit');
 Route::get('/pelangganPenjualan/approval', 'PelangganPenjualanController@approval');
