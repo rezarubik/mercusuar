@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class KonsumsiPerkapitaController extends Controller
+class PelangganPenjualanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +13,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function index()
     {
-           return view('menu/konsumsiperkapita');
-        //
+        return view('menu.pelanggan_penjualan');
     }
 
     /**
@@ -24,7 +23,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/InputPelangganPenjualan');
     }
 
     /**
@@ -46,7 +45,6 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function show($id)
     {
-        return view('detail');
         //
     }
 
