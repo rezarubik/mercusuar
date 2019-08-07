@@ -26,4 +26,4 @@ Route::get('/jardisdangardis', 'JardisGardisController@index');
 // Pelanggan Penjualan & Road Mao Lisdes
 Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
 Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
-Route::get('pelangganPenjualan/add', 'PelangganPenjualanController@create');
+Route::get('/pelangganPenjualan/add', 'PelangganPenjualanController@create');
