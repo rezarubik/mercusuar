@@ -10,8 +10,12 @@
   <link rel="stylesheet" href="{{asset('assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css')}}">
   <link rel="stylesheet" href="{{asset('assets/vendors/css/vendor.bundle.base.css')}}">
   <link rel="stylesheet" href="{{asset('assets/vendors/css/vendor.bundle.addons.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/css/fontawesome.min.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <!-- endinject -->
   <!-- plugin css for this page -->
+  <link rel="stylesheet" href="{{asset('assets/vendors/icheck/skins/all.css')}}">
   <!-- End plugin css for this page -->
   <!-- inject:css -->
   <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
@@ -309,6 +313,10 @@
             <div class="collapse" id="jardisGardis">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
+                  <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/samples/login.html"> Login </a>
                   <a class="nav-link" href="/jardisdangardis">View data</a>
                 </li>
               </ul>
@@ -379,6 +387,8 @@
             <div class="collapse" id="konsumsiPerKapita">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
+                  <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
+                  <a class="nav-link" href="/perkapita">View data</a>
                   <a class="nav-link" href="#">View data</a>
                 </li>
               </ul>

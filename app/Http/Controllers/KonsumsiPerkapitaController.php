@@ -13,6 +13,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function index()
     {
+           return view('menu/konsumsiperkapita');
         //
     }
 
@@ -45,6 +46,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function show($id)
     {
+        return view('detail');
         //
     }
 
