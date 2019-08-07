@@ -5,7 +5,7 @@
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">Pelanggan Penjualan</h4>
-            <a href="#" class="btn btn-primary float-right">
+            <a href="/pelangganPenjualan/add" class="btn btn-primary float-right">
                 + Tambah Data
             </a>
             <div class="table-responsive mt-3 text-center">
@@ -42,9 +42,9 @@
                             <td>1700</td>
                             <td>Draft</td>
                             <td>
-                                <a href="" class="badge badge-primary">Detail</a>
-                                <a href="" class="badge badge-secondary">Edit</a>
-                                <a href="" class="badge badge-primary">Refresh</a>
+                                <a href="/pelangganPenjualan/detail" class="badge badge-primary">Detail</a>
+                                <a href="/pelangganPenjualan/edit" class="badge badge-secondary">Edit</a>
+                                <a href="/pelangganPenjualan/approval" class="badge badge-primary">Approval</a>
                                 <a href="" class="badge badge-danger">Delete</a>
                             </td>
                         </tr>
@@ -64,7 +64,7 @@
                             <td>
                                 <a href="" class="badge badge-primary">Detail</a>
                                 <a href="" class="badge badge-secondary">Edit</a>
-                                <a href="" class="badge badge-primary">Refresh</a>
+                                <a href="" class="badge badge-primary">Approval</a>
                                 <a href="" class="badge badge-danger">Delete</a>
                             </td>
                         </tr>
