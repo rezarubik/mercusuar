@@ -13,7 +13,7 @@ class PelangganPenjualanController extends Controller
      */
     public function index()
     {
-        //
+        return view('menu.pelanggan_penjualan');
     }
 
     /**

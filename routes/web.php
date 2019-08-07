@@ -13,3 +13,8 @@
 
 Route::get('/', 'AdminController@index');
 Route::get('/pembangkit', 'AdminController@pembangkit');
+
+// Pelanggan Penjualan & Road Mao Lisdes
+Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
+Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
+Route::get('pelangganPenjualan/add', 'PelangganPenjualanController@create');
