@@ -7,8 +7,7 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Striped Table</h4>
-                  <p class="card-description">
-                  </p>
+                  <a href="/tambahperKapita" class="btn btn-primary float-right">+ Tambah Data</a>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -85,7 +84,7 @@
                           </td>
                           <td><span class="text-success">Draft</span></td>
                           <td>
-                            <a href="/detail" class="badge badge-info">Detail</a>
+                            <a href="/detailperKapita" class="badge badge-info">detail</a>
                             <a href="/editKapita" class="badge badge-warning">Edit</a>
                             <a href="/approvalKapita" class="badge badge-primary">Approval</a>
                             <a href="#" class="badge badge-danger">Delete</a>
@@ -127,7 +126,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <!-- <a href="#" class="badge badge-info">Detail</a> -->
+                            <!-- <a href="#" class="badge badge-info">detail</a> -->
                           </td>
                           </tr>
                           <tr>
@@ -167,7 +166,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <!-- <a href="#" class="badge badge-info">Detail</a> -->
+                            <!-- <a href="/detailperKapita" class="badge badge-info">detail</a> -->
                           </td>
                           </tr>
                           <tr>
@@ -207,7 +206,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="/detail" class="badge badge-info">Detail</a>
+                            <a href="/perKapita" class="badge badge-info">detail</a>
                             <a href="/editKapita" class="badge badge-warning">Edit</a>
                             <a href="/approvalKapita" class="badge badge-primary">Approval</a>
                             <a href="#" class="badge badge-danger">Delete</a>
@@ -250,7 +249,7 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="/detail" class="badge badge-info">Detail</a>
+                            <a href="/perKapita" class="badge badge-info">detail</a>
                             <a href="/editKapita" class="badge badge-warning">Edit</a>
                             <a href="/approvalKapita" class="badge badge-primary">Approval</a>
                             <a href="#" class="badge badge-danger">Delete</a>

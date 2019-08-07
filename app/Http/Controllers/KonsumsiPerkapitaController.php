@@ -28,14 +28,14 @@ class KonsumsiPerkapitaController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * ini masih show.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        //
+        return view('form/InputKonsumsiPerkapita');
     }
 
     /**
