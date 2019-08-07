@@ -1,16 +1,16 @@
 @extends('template.admin')
-@section('title', 'Input Pelanggan Penjualan')
+@section('title', 'Edit Pelanggan Penjualan')
 @section('content')
 <div class="col-12 stretch-card">
     <div class="card">
-        <h4 class="card-title" style="background-color: green; color:#ffffff; padding:20px;">Input Pelanggan Penjualan</h4>
+        <h4 class="card-title" style="background-color: green; color:#ffffff; padding:20px;">Edit Pelanggan Penjualan</h4>
         <div class="card-body">
             <form class="forms-sample">
                 <div class="form-group row">
                     <label for="profinsi" class="col-sm-3 col-form-label">Provinsi*</label>
                     <div class="col-sm-9">
                         <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Pilih Provinsi</option>
+                            <option>Jawa Tengah</option>
                         </select>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                     <label for="profinsi" class="col-sm-3 col-form-label">Kabupaten/Kota*</label>
                     <div class="col-sm-9">
                         <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Pilih Kabupaten/Kota</option>
+                            <option>Yogyakarta</option>
                         </select>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                     <label for="profinsi" class="col-sm-3 col-form-label">Kecamatan*</label>
                     <div class="col-sm-9">
                         <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Pilih Kecamatan</option>
+                            <option>Sumenep</option>
                         </select>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     <label for="profinsi" class="col-sm-3 col-form-label">Desa*</label>
                     <div class="col-sm-9">
                         <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Pilih Desa</option>
+                            <option>Bango Dua</option>
                         </select>
                     </div>
                 </div>
@@ -65,31 +65,31 @@
                     <label for="profinsi" class="col-sm-3 col-form-label">Golongan Tarif*</label>
                     <div class="col-sm-9">
                         <select class="form-control form-control-lg" id="exampleFormControlSelect1">
-                            <option>Pilih Golongan Tarif</option>
+                            <option>Golongan Tarif A</option>
                         </select>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="jumlahPelanggan" class="col-sm-3 col-form-label">Jumlah Pelanggan*</label>
                     <div class="col-sm-9">
-                        <input type="number" class="form-control" id="jumlahPelanggan" placeholder="Masukan Jumlah Pelanggan">
+                        <input type="number" class="form-control disable" id="jumlahPelanggan" value="5421">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="totalPenjualan(KWH)" class="col-sm-3 col-form-label">Total Penjualan (KWH)*</label>
                     <div class="col-sm-9">
-                        <input type="number" class="form-control" id="totalPenjualan(KWH)" placeholder="Masukan Total Penjualan (KWH)">
+                        <input type="number" class="form-control" id="totalPenjualan(KWH)" value="645">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="totalPenjualan(PTL)" class="col-sm-3 col-form-label">Total Penjualan (PTL)*</label>
                     <div class="col-sm-9">
-                        <input type="number" class="form-control" id="totalPenjualan(PTL)" placeholder="Masukan Total Penjualan (PTL)*">
+                        <input type="number" class="form-control" id="totalPenjualan(PTL)" value="4353416">
                     </div>
                 </div>
                 <div class="text-center">
                     <a href="/pelangganPenjualan" class="btn btn-warning mr-2">Kembali</a>
-                    <a href="/pelangganPenjualan/store" class="btn btn-primary">Simpan</a>
+                    <a href="/pelangganPenjualan" class="btn btn-primary">Simpan</a>
                 </div>
             </form>
         </div>
