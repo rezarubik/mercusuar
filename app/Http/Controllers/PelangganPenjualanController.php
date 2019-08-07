@@ -83,6 +83,6 @@ class PelangganPenjualanController extends Controller
     }
     public function approval()
     {
-        return view('form.ApprovalPelangganPenjualan');
+        return view('detail.approvalPelangganPenjualan');
     }
 }
