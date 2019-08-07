@@ -46,7 +46,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function show()
     {
-        return view('form/DetailKonsumsiPerkapita');
+        return view('detail/DetailKonsumsiPerkapita');
     }
 
     /**
@@ -65,7 +65,7 @@ class KonsumsiPerkapitaController extends Controller
      */
     public function approval()
     {
-        return view('form/ApprovalKonsumsiPerkapita');
+        return view('detail/ApprovalKonsumsiPerkapita');
     }
     /**
      * 
