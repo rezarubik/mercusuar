@@ -13,7 +13,7 @@ class RoadMapLisdesController extends Controller
      */
     public function index()
     {
-        //
+        return view('menu.road_map_lisdes');
     }
 
     /**

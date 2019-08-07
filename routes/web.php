@@ -15,3 +15,8 @@ Route::get('/', 'AdminController@index');
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
 Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
+
+// Pelanggan Penjualan & Road Mao Lisdes
+Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
+Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
+Route::get('pelangganPenjualan/add', 'PelangganPenjualanController@create');
