@@ -12,9 +12,16 @@
 */
 
 Route::get('/', 'AdminController@index');
+// Pembangkit
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
 Route::get('/jaringan_transmisi', 'JaringanTransmisiController@index');
+
+// Neraca Energi
+Route::get('/neracaenergi', 'NeracaEnergiController@index');
+
+// Jardis dan Gardis
+Route::get('/jardisdangardis', 'JardisGardisController@index');
 
 // Pelanggan Penjualan & Road Mao Lisdes
 Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');

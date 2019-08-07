@@ -13,7 +13,7 @@ class JardisGardisController extends Controller
      */
     public function index()
     {
-        //
+        return view('menu/jardis_dan_gardis');
     }
 
     /**

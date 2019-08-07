@@ -13,7 +13,7 @@ class NeracaEnergiController extends Controller
      */
     public function index()
     {
-        //
+        return view('menu/neraca_energi');
     }
 
     /**
