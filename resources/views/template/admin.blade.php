@@ -387,9 +387,7 @@
             <div class="collapse" id="konsumsiPerKapita">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
-                  <a class="nav-link" href="/perkapita">View data</a>
-                  <a class="nav-link" href="#">View data</a>
+                  <a class="nav-link" href="/perKapita">View data</a>
                 </li>
               </ul>
             </div>

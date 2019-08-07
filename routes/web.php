@@ -14,8 +14,6 @@
 Route::get('/', 'AdminController@index');
 Route::get('/pembangkit', 'AdminController@pembangkit');
 
-Route::get('/perkapita', 'KonsumsiPerkapitaController@index');
-Route::get('/detail', 'KonsumsiPerkapitaController@detail');
 // Pembangkit
 Route::get('/pembangkit', 'AdminController@pembangkit');
 Route::get('/gardu_induk', 'GarduIndukController@index');
@@ -31,3 +29,9 @@ Route::get('/jardisdangardis', 'JardisGardisController@index');
 Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
 Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
 Route::get('/pelangganPenjualan/add', 'PelangganPenjualanController@create');
+
+// Perkapita
+Route::get('/perKapita', 'KonsumsiPerkapitaController@index');
+Route::get('/detail', 'KonsumsiPerkapitaController@show');
+Route::get('/editKapita', 'KonsumsiPerkapitaController@edit');
+Route::get('/approvalKapita', 'KonsumsiPerkapitaController@approval');

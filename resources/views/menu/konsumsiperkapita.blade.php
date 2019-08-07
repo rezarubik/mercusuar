@@ -1,6 +1,6 @@
 @extends('template.admin')
 
-@section('title', 'kapita')
+@section('title', 'Konsumsi per Kapita')
 
 @section('content')
 <div class="col-lg-12 grid-margin stretch-card">
@@ -222,8 +222,8 @@
                           <td><span class="text-success">Draft</span></td>
                           <td>
                             <a href="/detail" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Refresh</a>
+                            <a href="/editKapita" class="badge badge-warning">Edit</a>
+                            <a href="/approvalKapita" class="badge badge-primary">Approval</a>
                             <a href="#" class="badge badge-danger">Delete</a>
                           </td>
                         </tr>
