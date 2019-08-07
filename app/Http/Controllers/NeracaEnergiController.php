@@ -23,7 +23,7 @@ class NeracaEnergiController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/inputNeracaEnergi');
     }
 
     /**
