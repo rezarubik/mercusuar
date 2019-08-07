@@ -82,10 +82,10 @@
                             <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
                             <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
                             <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
-                            <a href="#"><label class="badge badge-info">Detail</label></a>
-                            <a href="#"><label class="badge badge-warning">Edit</label></a>
-                            <a href="#"><label class="badge badge-primary">Refresh</label></a>
-                            <a href="#"><label class="badge badge-danger">Delete</label></a>
+                            <a href="#" class="badge badge-info">Detail</a>
+                            <a href="#" class="badge badge-warning">Edit</a>
+                            <a href="#" class="badge badge-primary">Refresh</a>
+                            <a href="#" class="badge badge-danger">Delete</a>
                           </td>
                         </tr>
                       </tbody>
