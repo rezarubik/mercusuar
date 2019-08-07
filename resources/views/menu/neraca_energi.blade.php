@@ -28,7 +28,7 @@
           </thead>
           <tbody>
             <tr>
-              <td class="py-1">1.</td>
+              <td>1.</td>
               <td>Unit Kerja A</td>
               <td>2019</td>
               <td>Januari</td>

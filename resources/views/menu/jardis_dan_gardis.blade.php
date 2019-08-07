@@ -12,44 +12,22 @@
                     <table class="table table-striped">
                       <thead>
                         <tr>    
-                          <th>
-                            No
-                          </th>
-                          <th>
-                            Unit kerja
-                          </th>
-                          <th>
-                            Area
-                          </th>
-                          <th>
-                            Tahun
-                          </th>
-                          <th>
-                            Bulan
-                          </th>
-                          <th>
-                            Tipe Jaringan Distribusi
-                          </th>
-                          <th>
-                            Panjang Jaringan Distribusi (KMS)
-                          </th>
-                          <th>
-                            Jumlah Unit
-                          </th>
-                          <th>
-                            Kapasitas Gardu Distribusi (MVA)
-                          </th>
-                          <th>
-                            Status
-                          </th>
-                          <th>
-                            Aksi
-                          </th>
+                          <th>No</th>
+                          <th>Unit kerja</th>
+                          <th>Area</th>
+                          <th>Tahun</th>
+                          <th>Bulan</th>
+                          <th>Tipe Jaringan Distribusi</th>
+                          <th>Panjang Jaringan Distribusi (KMS)</th>
+                          <th>Jumlah Unit</th>
+                          <th>Kapasitas Gardu Distribusi (MVA)</th>
+                          <th>Status</th>
+                          <th>Aksi</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="py-1">1.</td>
+                          <td>1.</td>
                           <td>Jawa Tengah</td>
                           <td>Sleman</td>
                           <td>2019</td>
