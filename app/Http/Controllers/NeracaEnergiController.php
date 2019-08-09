@@ -23,7 +23,7 @@ class NeracaEnergiController extends Controller
      */
     public function create()
     {
-        //
+        return view('form/inputNeracaEnergi');
     }
 
     /**
@@ -34,7 +34,7 @@ class NeracaEnergiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return redirect('/neracaenergi');
     }
 
     /**
@@ -45,7 +45,7 @@ class NeracaEnergiController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('detail/detailNeracaEnergi');
     }
 
     /**
@@ -56,7 +56,7 @@ class NeracaEnergiController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('form/editNeracaEnergi');
     }
 
     /**
@@ -68,7 +68,8 @@ class NeracaEnergiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // return redirect('/neracaenergi');
+        var_dump($request);
     }
 
     /**
@@ -79,6 +80,16 @@ class NeracaEnergiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        return redirect('/neracaenergi');
+    }
+
+    public function approve($id)
+    {
+        return view('/detail/approvalNeracaEnergi');
+    }
+
+    public function confirmApporve(Request $request)
+    {
+        var_dump($request);
     }
 }

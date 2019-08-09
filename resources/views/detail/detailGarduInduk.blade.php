@@ -16,15 +16,15 @@
                   </div>
                   <div class="form-group">
                       <label for="FormNamaGardu">Nama Gardu*</label>
-                      <input type="text" class="form-control Nama Gardu" id="FormNamaGardu" placeholder="Gardu Gandul">
+                      <input type="text" class="form-control Nama Gardu" id="FormNamaGardu" value="Gardu Gandul">
                     </div>
                     <div class="form-group">
                       <label for="FormKapasitas">Kapasitas (MVA)*</label>
-                      <input type="text" class="form-control Kapasitas" id="FormKapasitas" placeholder="300.0000 MVA">
+                      <input type="text" class="form-control Kapasitas" id="FormKapasitas" value="300.0000 MVA">
                     </div>
                     <div class="form-group">
                       <label for="FormTegangan">Tengangan (KV)*</label>
-                      <input type="text" class="form-control Tengangan" id="FormTegangan" placeholder="30.000 KV">
+                      <input type="text" class="form-control Tengangan" id="FormTegangan" value="30.000 KV">
                     </div>
                   <div class="form-group">
                     <label for="FormTipeGardu">Tipe Gardu Induk*</label>
@@ -40,11 +40,11 @@
                   </div>
                   <div class="form-group">
                       <label for="FormUnitTrafo">Jumlah Unit Trafo*</label>
-                      <input type="text" class="form-control Unit Trafo" id="FormUnitTrafo" placeholder="77">
+                      <input type="text" class="form-control Unit Trafo" id="FormUnitTrafo" value="77">
                     </div>
                     <div class="form-group">
                       <label for="FormKapasitasTrafo">Kapasitas Trafo (MVA)*</label>
-                      <input type="text" class="form-control Kapasitas Trafo" id="FormKapasitasTrafo" placeholder="50000 MVA">
+                      <input type="text" class="form-control Kapasitas Trafo" id="FormKapasitasTrafo" value="50000 MVA">
                     </div>
                     <div class="form-group">
                     <label for="FormStatusKepemilikan">Status Kepemilikan*</label>
@@ -66,11 +66,11 @@
                   </div>
                     <div class="form-group">
                       <label for="FormLatitude">Latitude*</label>
-                      <input type="text" class="form-control Latitude" id="FormLatitude" placeholder="347111722213">
+                      <input type="text" class="form-control Latitude" id="FormLatitude" value="347111722213">
                     </div>
                     <div class="form-group">
                       <label for="FormLongitude">Longitude*</label>
-                      <input type="text" class="form-control Longitude" id="FormLongitude" placeholder="432551722214">
+                      <input type="text" class="form-control Longitude" id="FormLongitude" value="432551722214">
                     </div>
                     </fieldset>
                     <div class="float-right">
