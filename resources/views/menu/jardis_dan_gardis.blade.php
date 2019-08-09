@@ -1,13 +1,15 @@
 @extends('template.admin')
 
-@section('title', 'pembangkit')
+@section('title', 'Jardis dan Gardis')
 
 @section('content')
 <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
-                <div class="card-body">
+                <div class="card-header">
                   <h1 class="card-title">Jardis dan Gardis</h1>
-                  <a href="/jardisdangardis/add" class="btn btn-primary float-right">+Tambah</a>
+                </div>
+                <div class="card-body">
+                  <a href="/jardis/add" class="btn btn-primary float-right">+Tambah</a>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -38,10 +40,10 @@
                           <td>1500</td>
                           <td><span class="text-success">Draft</span></td>
                           <td>
-                            <a href="#" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Approve</a>
-                            <a href="#" class="badge badge-danger">Delete</a>
+                            <a href="/jardis/detail/1" class="badge badge-info">Detail</a>
+                            <a href="/jardis/edit/1" class="badge badge-warning">Edit</a>
+                            <a href="/jardisdangardis/approve/1" class="badge badge-primary">Approve</a>
+                            <a href="/jardisdangardis/delete/1" class="badge badge-danger">Delete</a>
                           </td>
                         </tr>
                       </tbody>

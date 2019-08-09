@@ -21,9 +21,14 @@ class JardisGardisController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function createJardis()
     {
-        return view('form/inputJardisDanGardis');
+        return view('form/inputJardis');
+    }
+
+    public function createGardis()
+    {
+        return view('form/inputGardis');
     }
 
     /**
@@ -32,7 +37,12 @@ class JardisGardisController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function storeJardis(Request $request)
+    {
+        //
+    }
+
+    public function storeGardis(Request $request)
     {
         //
     }
@@ -43,9 +53,14 @@ class JardisGardisController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function showJardis($id)
     {
-        //
+        return view('detail/detailJardis');
+    }
+
+    public function showGardis($id)
+    {
+        return view('detail/detailGardis');
     }
 
     /**
@@ -54,9 +69,14 @@ class JardisGardisController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function editJardis($id)
     {
-        //
+        return view('form/editJardis');
+    }
+
+    public function editGardis($id)
+    {
+        return view('form/editGardis');
     }
 
     /**
@@ -66,7 +86,12 @@ class JardisGardisController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function updateJardis(Request $request, $id)
+    {
+        //
+    }
+
+    public function updateGardis(Request $request, $id)
     {
         //
     }
@@ -80,5 +105,9 @@ class JardisGardisController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function approve($id){
+        return view('detail/approvalJardisDanGardis');
     }
 }
