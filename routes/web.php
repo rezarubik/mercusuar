@@ -57,14 +57,18 @@ Route::get('/gardis/edit/{id}', 'JardisGardisController@editGardis');
 Route::get('/jardisdangardis/approve/{id}', 'JardisGardisController@approve');
 Route::get('/jardisdangardis/delete/{id}', 'JardisGardisController@destroy');
 
-// Pelanggan Penjualan & Road Map Lisdes
+// Pelanggan Penjualan
 Route::get('/pelangganPenjualan', 'PelangganPenjualanController@index');
 Route::get('/pelangganPenjualan/add', 'PelangganPenjualanController@create');
-Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
 
 Route::get('/pelangganPenjualan/detail', 'PelangganPenjualanController@show');
 Route::get('/pelangganPenjualan/edit', 'PelangganPenjualanController@edit');
 Route::get('/pelangganPenjualan/approval', 'PelangganPenjualanController@approval');
+
+// Road Map Lisdes
+Route::get('/roadMapLisdes', 'RoadMapLisdesController@index');
+Route::get('/roadMapLisdes/add', 'RoadMapLisdesController@create');
+Route::get('roadMapLisdes/add/realisasi', 'RoadMapLisdesController@createRealisasi');
 
 // Perkapita
 Route::get('/perKapita', 'KonsumsiPerkapitaController@index');
