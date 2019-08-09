@@ -5,7 +5,9 @@
     <div class="card">
         <div class="card-title" style="background-color: green; color:#ffffff; padding:20px;">
             Approval Pelanggan Penjualan
-            <div class="float-right"><a class="btn" href="/pelangganPenjualan" style="color:#ffffff;">X</a></div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
         <div class="card-body">
             <form class="forms-sample">
@@ -94,7 +96,7 @@
                 </fieldset>
                 <hr style="width:100%;">
                 <div class="row">
-                    <label for="exampleTextarea1" class="col-sm-3 col-form-label">Textarea</label>
+                    <label for="exampleTextarea1" class="col-sm-3 col-form-label">Catatan</label>
                     <div class="col-sm-9">
                         <textarea class="form-control" id="exampleTextarea1" rows="10" placeholder="Masukan Catatan"></textarea>
                     </div>

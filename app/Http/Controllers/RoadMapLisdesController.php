@@ -47,9 +47,9 @@ class RoadMapLisdesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        //
+        return view('detail.detailRencanaTargetRoadMapLisdes');
     }
 
     /**
@@ -58,9 +58,9 @@ class RoadMapLisdesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit()
     {
-        //
+        return view('form.editRencanaTargetRoadMapLisdes');
     }
 
     /**
@@ -84,5 +84,10 @@ class RoadMapLisdesController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function approval()
+    {
+        return view('detail.approvalRencanaTargetRoadMapLisdes');
     }
 }
