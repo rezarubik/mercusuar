@@ -6,7 +6,8 @@
         <div class="card-header">
             <h4 class="card-title">Approval Neraca Energi</h4>
         </div>
-        <form class="forms-sample">
+        <form class="forms-sample" action="/neracaenergi/approve/1" method="POST">
+            @csrf
             <div class="card-body">
                 <!-- Unit kerja input -->
                 <div class="form-group row">
@@ -197,7 +198,7 @@
             <!-- Button -->
             <div class="text-center">
                 <a href="/neracaenergi" class="btn btn-secondary" name="back">Kembali</a>
-                <button type="submit" class="btn btn-success mr-2" name="submit">Simpan</button>
+                <input type="submit" class="btn btn-success mr-2" name="submit" value="Simpan">
             </div>
         </form>
     </div>

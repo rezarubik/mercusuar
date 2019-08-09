@@ -68,7 +68,8 @@ class NeracaEnergiController extends Controller
      */
     public function update(Request $request, $id)
     {
-        return redirect('/neracaenergi');
+        // return redirect('/neracaenergi');
+        var_dump($request);
     }
 
     /**
@@ -82,7 +83,13 @@ class NeracaEnergiController extends Controller
         return redirect('/neracaenergi');
     }
 
-    public function approve($id){
+    public function approve($id)
+    {
         return view('/detail/approvalNeracaEnergi');
+    }
+
+    public function confirmApporve(Request $request)
+    {
+        var_dump($request);
     }
 }
