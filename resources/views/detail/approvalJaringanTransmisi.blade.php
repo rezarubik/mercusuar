@@ -22,7 +22,7 @@
                   </div>
                   <div class="form-group">
                       <label for="FormJalurTransmisi">Nama Jalur Transmisi*</label>
-                      <input type="text" class="form-control Jalur Transmisi" id="FormJalurTransmisi" placeholder="Jalur Timur">
+                      <input type="text" class="form-control Jalur Transmisi" id="FormJalurTransmisi" value="Jalur Timur">
                     </div>
                   <div class="form-group">
                     <label for="FormJenisTegangan">Jenis Tegangan</label>
@@ -33,10 +33,10 @@
                     <div class="form-group">
                     <div class="form-group">
                       <label for="FormTegangan">Tengangan (KV)*</label>
-                      <input type="text" class="form-control Tengangan" id="FormTegangan" placeholder="3000000 KV">
+                      <input type="text" class="form-control Tengangan" id="FormTegangan" value="3000000 KV">
                     </div>
                       <label for="FormPanjangJaringan">Panjang Jaringan (KMS)*</label>
-                      <input type="text" class="form-control Panjang Jaringan" id="FormPanjangJaringan" placeholder="300000 KMS">
+                      <input type="text" class="form-control Panjang Jaringan" id="FormPanjangJaringan" value="300000 KMS">
                     </div>
                     <div class="form-group">
                     <label for="FormStatusKepemilikan">Status Kepemilikan*</label>
@@ -58,20 +58,20 @@
                   </div>
                     <div class="form-group">
                       <label for="FormNamaTower">Nama Tower*</label>
-                      <input type="text" class="form-control Nama Tower" id="FormNamaTower" placeholder="Tower PLN">
+                      <input type="text" class="form-control Nama Tower" id="FormNamaTower" value="Tower PLN">
                     </div>
                     <div class="form-group">
                       <label for="FormLatitude">Latitude*</label>
-                      <input type="text" class="form-control Latitude" id="FormLatitude" placeholder="123123777290">
+                      <input type="text" class="form-control Latitude" id="FormLatitude" value="123123777290">
                     </div>
                     <div class="form-group">
                       <label for="FormLongitude">Longitude*</label>
-                      <input type="text" class="form-control Longitude" id="FormLongitude" placeholder="332123777223">
+                      <input type="text" class="form-control Longitude" id="FormLongitude" value="332123777223">
                     </div>
                     </fieldset>
                     <div class="form-group">
                       <label for="FormCatatan">Catatan*</label>
-                      <input type="text" class="form-control Catatan" id="FormCatatan" placeholder="Masukan Catatan">
+                      <input type="text" class="form-control Catatan" id="FormCatatan" value="Masukan Catatan">
                     </div>
                     <div class="float-right">
                     <a href="/jaringan_transmisi" class="btn btn-warning mr-2">Tidak</a>
