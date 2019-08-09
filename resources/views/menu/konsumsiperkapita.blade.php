@@ -1,14 +1,13 @@
 @extends('template.admin')
 
-@section('title', 'kapita')
+@section('title', 'Konsumsi per Kapita')
 
 @section('content')
 <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Striped Table</h4>
-                  <p class="card-description">
-                  </p>
+                  <a href="/tambahperKapita" class="btn btn-primary float-right">+ Tambah Data</a>
                   <div class="table-responsive">
                     <table class="table table-striped">
                       <thead>
@@ -52,148 +51,9 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <!-- <tr>
-                        <td>
-                            1
-                          </td>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-1.png" alt="image" />
-                          </td>
-                          <td>
-                            Herman Beck
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 77.99
-                          </td>
-                          <td>
-                            May 15, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-2.png" alt="image" />
-                          </td>
-                          <td>
-                            Messsy Adam
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $245.30
-                          </td>
-                          <td>
-                            July 1, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-3.png" alt="image" />
-                          </td>
-                          <td>
-                            John Richards
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $138.00
-                          </td>
-                          <td>
-                            Apr 12, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-4.png" alt="image" />
-                          </td>
-                          <td>
-                            Peter Meggik
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 77.99
-                          </td>
-                          <td>
-                            May 15, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-1.png" alt="image" />
-                          </td>
-                          <td>
-                            Edward
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 160.25
-                          </td>
-                          <td>
-                            May 03, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-2.png" alt="image" />
-                          </td>
-                          <td>
-                            John Doe
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 123.21
-                          </td>
-                          <td>
-                            April 05, 2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces-clipart/pic-3.png" alt="image" />
-                          </td>
-                          <td>
-                            Henry Tom
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            $ 150.00
-                          </td>
-                          <td>
-                            June 16, 2015
-                          </td>
-                        </tr> -->
                         <tr>
                           <td class="py-1">
                             1.
-                          </td>
-                          <td>
-                            Unit Kerja A
                           </td>
                           <td>
                             2019
@@ -202,13 +62,16 @@
                             Januari
                           </td>
                           <td>
-                            56431
+                            Jawa Tengah
                           </td>
                           <td>
-                            2343
+                            Sumenep
                           </td>
                           <td>
-                            5234
+                            Pare-Pare
+                          </td>
+                          <td>
+                            Bango Dua
                           </td>
                           <td>
                             2190
@@ -221,12 +84,177 @@
                           </td>
                           <td><span class="text-success">Draft</span></td>
                           <td>
-                            <a href="/detail" class="badge badge-info">Detail</a>
-                            <a href="#" class="badge badge-warning">Edit</a>
-                            <a href="#" class="badge badge-primary">Refresh</a>
+                            <a href="/detailperKapita" class="badge badge-info">detail</a>
+                            <a href="/editKapita" class="badge badge-warning">Edit</a>
+                            <a href="/approvalKapita" class="badge badge-primary">Approval</a>
                             <a href="#" class="badge badge-danger">Delete</a>
                           </td>
                         </tr>
+                        <td class="py-1">
+                            2.
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td>
+                            Maret
+                          </td>
+                          <td>
+                            Jawa Tengah
+                          </td>
+                          <td>
+                            Yogyakarta
+                          </td>
+                          <td>
+                            Pare Pare
+                          </td>
+                          <td>
+                            Bango Dua
+                          </td>
+                          <td>
+                            2189
+                          </td>
+                          <td>
+                            2321
+                          </td>
+                          <td>
+                            636 
+                          </td>
+                          <td><span class="text-success">Approved</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <!-- <a href="#" class="badge badge-info">detail</a> -->
+                          </td>
+                          </tr>
+                          <tr>
+                          <td class="py-1">
+                            3.
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td>
+                            Juni
+                          </td>
+                          <td>
+                            Jawa Tengah
+                          </td>
+                          <td>
+                            Pare
+                          </td>
+                          <td>
+                            Pare Pare
+                          </td>
+                          <td>
+                           Bango Dua
+                          </td>
+                          <td>
+                            1489
+                          </td>
+                          <td>
+                            2231
+                          </td>
+                          <td>
+                            636
+                          </td>
+                          <td><span class="text-danger">Reject</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <!-- <a href="/detailperKapita" class="badge badge-info">detail</a> -->
+                          </td>
+                          </tr>
+                          <tr>
+                          <td class="py-1">
+                            4.
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td>
+                            Juni
+                          </td>
+                          <td>
+                            Jawa Timur
+                          </td>
+                          <td>
+                            Surabaya
+                          </td>
+                          <td>
+                            Pare Pare
+                          </td>
+                          <td>
+                            Bango Dua
+                          </td>
+                          <td>
+                            3159
+                          </td>
+                          <td>
+                            2231
+                          </td>
+                          <td>
+                            636
+                          </td>
+                          <td><span class="text-success">Draft</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <a href="/perKapita" class="badge badge-info">detail</a>
+                            <a href="/editKapita" class="badge badge-warning">Edit</a>
+                            <a href="/approvalKapita" class="badge badge-primary">Approval</a>
+                            <a href="#" class="badge badge-danger">Delete</a>
+                          </td>
+                          </tr>
+                          <tr>
+                          <td class="py-1">
+                            5.
+                          </td>
+                          <td>
+                            2019
+                          </td>
+                          <td>
+                            Juli
+                          </td>
+                          <td>
+                            Jawa Barat
+                          </td>
+                          <td>
+                            Subang
+                          </td>
+                          <td>
+                            Pare Pare
+                          </td>
+                          <td>
+                            Bango Dua
+                          </td>
+                          <td>
+                            1690
+                          </td>
+                          <td>
+                            2231
+                          </td>
+                          <td>
+                            636
+                          </td>
+                          <td><span class="text-success">Reject</span></td>
+                          <td>
+                            <!-- <a href="" class="btn btn-info"><i class="fas fa-eye"></i></a>
+                            <a href="" class="btn btn-warning"><i class="fas fa-pen"></i></a>
+                            <a href="" class="btn btn-primary"><i class="fas fa-sync-alt"></i></a>
+                            <a href="" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a> -->
+                            <a href="/perKapita" class="badge badge-info">detail</a>
+                            <a href="/editKapita" class="badge badge-warning">Edit</a>
+                            <a href="/approvalKapita" class="badge badge-primary">Approval</a>
+                            <a href="#" class="badge badge-danger">Delete</a>
+                          </td>
+                          </tr>
                       </tbody>
                     </table>
                   </div>

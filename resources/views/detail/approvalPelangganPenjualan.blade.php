@@ -3,8 +3,11 @@
 @section('content')
 <div class="col-12 stretch-card">
     <div class="card">
+        <div class="card-title" style="background-color: green; color:#ffffff; padding:20px;">
+            Approval Pelanggan Penjualan
+            <div class="float-right"><a class="btn" href="/pelangganPenjualan" style="color:#ffffff;">X</a></div>
+        </div>
         <div class="card-body">
-            <h4 class="card-title" style="background-color: green; color:#ffffff; padding:20px;">View Pelanggan Penjualan</h4>
             <form class="forms-sample">
                 <fieldset disabled="disabled">
                     <div class="form-group row">
@@ -89,8 +92,16 @@
                         </div>
                     </div>
                 </fieldset>
-                <div class="float-right">
-                    <a href="/pelangganPenjualan" class="btn btn-warning mr-2">Kembali</a>
+                <hr style="width:100%;">
+                <div class="row">
+                    <label for="exampleTextarea1" class="col-sm-3 col-form-label">Textarea</label>
+                    <div class="col-sm-9">
+                        <textarea class="form-control" id="exampleTextarea1" rows="10" placeholder="Masukan Catatan"></textarea>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="/pelangganPenjualan" class="btn btn-secondary mr-2">Tidak</a>
+                    <a href="/pelangganPenjualan" class="btn btn-warning">Setuju</a>
                 </div>
             </form>
         </div>

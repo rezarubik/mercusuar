@@ -3,8 +3,8 @@
 @section('content')
 <div class="col-12 stretch-card">
     <div class="card">
+        <h4 class="card-title" style="background-color: green; color:#ffffff; padding:20px;">View Pelanggan Penjualan</h4>
         <div class="card-body">
-            <h4 class="card-title" style="background-color: green; color:#ffffff; padding:20px;">View Pelanggan Penjualan</h4>
             <form class="forms-sample">
                 <fieldset disabled="disabled">
                     <div class="form-group row">

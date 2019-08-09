@@ -28,14 +28,14 @@ class KonsumsiPerkapitaController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * ini masih show.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        //
+        return view('form/InputKonsumsiPerkapita');
     }
 
     /**
@@ -44,24 +44,31 @@ class KonsumsiPerkapitaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show()
     {
-        return view('detail');
-        //
+        return view('detail/DetailKonsumsiPerkapita');
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * ini cuma show.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit()
     {
-        //
+        return view('form/EditKonsumsiPerkapita');
     }
 
     /**
+     * ini cuma show
+     */
+    public function approval()
+    {
+        return view('detail/ApprovalKonsumsiPerkapita');
+    }
+    /**
+     * 
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
