@@ -45,7 +45,8 @@ Route::get('/roadMapLisdes/add', 'RoadMapLisdesController@create');
 Route::get('roadMapLisdes/add/realisasi', 'RoadMapLisdesController@createRealisasi');
 // Perkapita
 Route::get('/perKapita', 'KonsumsiPerkapitaController@index');
-Route::get('/detail', 'KonsumsiPerkapitaController@show');
+Route::get('/tambahperKapita', 'KonsumsiPerkapitaController@store');
+Route::get('/detailperKapita', 'KonsumsiPerkapitaController@show');
 Route::get('/editKapita', 'KonsumsiPerkapitaController@edit');
 Route::get('/approvalKapita', 'KonsumsiPerkapitaController@approval');
 
