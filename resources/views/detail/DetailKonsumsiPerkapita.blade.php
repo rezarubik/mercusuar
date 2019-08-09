@@ -13,7 +13,7 @@
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Provinsi*</label>
                           <div class="col-sm-9">
-                            <select class="form-control">
+                            <select class="form-control disabled">
                               <option>Jawa Tengah</option>
                               <option>Category2</option>
                               <option>Category3</option>
@@ -24,7 +24,7 @@
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Kabupaten/Kota*</label>
                           <div class="col-sm-9">
-                            <select class="form-control">
+                            <select class="form-control disabled">
                               <option>Yogyakarta</option>
                               <option>Category2</option>
                               <option>Category3</option>
@@ -35,7 +35,7 @@
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Kecamatan*</label>
                           <div class="col-sm-9">
-                            <select class="form-control">
+                            <select class="form-control disabled">
                               <option>Sumenap</option>
                               <option>Category2</option>
                               <option>Category3</option>
@@ -46,7 +46,7 @@
                         <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Desa*</label>
                           <div class="col-sm-9">
-                            <select class="form-control">
+                            <select class="form-control disabled">
                               <option>Bango 2</option>
                               <option>Category2</option>
                               <option>Category3</option>
