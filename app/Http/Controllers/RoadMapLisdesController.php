@@ -23,7 +23,11 @@ class RoadMapLisdesController extends Controller
      */
     public function create()
     {
-        //
+        return view('form.InputRoadMapLisdes');
+    }
+    public function createRealisasi()
+    {
+        return view('form.InputRoadMapLisdesRealisasi');
     }
 
     /**
